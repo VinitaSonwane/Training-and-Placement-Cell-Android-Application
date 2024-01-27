@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ResumeAnalyser.AnalyserFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="ExtraText">
+
+            <!-- Image of Resume Builder -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/resumeanalyser"
+                android:layout_gravity="center"/>
+
+
+
+            <!-- Steps for Resume Builder -->
+            <!-- ... (Same as before) -->
+
+
+            <!-- Text Description for Resume Analyzer -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Analyze your resume with our Resume Analyzer to get personalized suggestions:"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. Our Resume Analyzer assesses whether your resume is suitable for freshers or experienced professionals."
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. It provides insights into the specialization, indicating whether your resume is tailored for web development or Android development."
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. Receive detailed feedback on your resume, highlighting areas of improvement and suggesting enhancements."
+                android:layout_marginTop="8dp"/>
+
+            <!-- Additional Details about Resume Analyzer -->
+
+            <TextView
+                android:id="@+id/nav_resume_analyser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Click here to explore the Resume Analyzer"
+                android:textColor="?attr/colorAccent"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

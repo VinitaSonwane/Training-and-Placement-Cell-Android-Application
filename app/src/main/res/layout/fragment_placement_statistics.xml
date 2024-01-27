@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.placementStatistics.placementStatisticsFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/profile_margin_horizontal"
+        android:layout_marginVertical="@dimen/profile_margin_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/placement_heading"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/profile_heading_textsize"
+                android:textStyle="bold"
+                android:text="Bar Chart"/>
+
+            <Spinner
+                android:id="@+id/placement_details_dropdown"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:padding="10dp"
+                />
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/bar_chart"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_margin="20dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="@dimen/profile_margin_vertical"
+            android:layout_marginHorizontal="@dimen/profile_margin_horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tnp_average_ctc_company_label"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Average CTC per Company"
+                    android:gravity="center"
+                    android:textSize="@dimen/profile_textsize"
+                    android:background="@drawable/right_border_dark"
+                    android:paddingVertical="@dimen/profile_margin_vertical"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tnp_average_ctc_company"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#7ebdb7"
+                    android:gravity="center"
+                    android:textSize="@dimen/profile_textsize"
+                    android:paddingVertical="@dimen/profile_margin_vertical"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tnp_average_ctc_candidate_label"
+                    android:layout_width="250dp"
+                    android:background="@drawable/right_border_faint"
+                    android:layout_height="wrap_content"
+                    android:text="Average CTC per Candidate"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/profile_margin_vertical"
+                    android:textSize="@dimen/profile_textsize"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tnp_average_ctc_candidate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#c4f5f0"
+                    android:gravity="center"
+                    android:textSize="@dimen/profile_textsize"
+                    android:paddingVertical="@dimen/profile_margin_vertical"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tnp_max_ctc_label"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/right_border_dark"
+                    android:gravity="center"
+                    android:text="Maximum CTC"
+                    android:textSize="@dimen/profile_textsize"
+                    android:paddingVertical="@dimen/profile_margin_vertical"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tnp_max_ctc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#7ebdb7"
+                    android:gravity="center"
+                    android:textSize="@dimen/profile_textsize"
+                    android:paddingVertical="@dimen/profile_margin_vertical"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tnp_company_visited_label"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total Companies Visited"
+                    android:background="@drawable/right_border_faint"
+                    android:gravity="center"
+                    android:paddingVertical="@dimen/profile_margin_vertical"
+                    android:textSize="@dimen/profile_textsize"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:paddingVertical="@dimen/profile_margin_vertical"
+                    android:id="@+id/tnp_company_visited"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:background="#c4f5f0"
+                    android:textSize="@dimen/profile_textsize"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

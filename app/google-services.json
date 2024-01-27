@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "112722344614",
+    "project_id": "freshers-hub-dcd85",
+    "storage_bucket": "freshers-hub-dcd85.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112722344614:android:d79740581b8ebf34bc9267",
+        "android_client_info": {
+          "package_name": "com.hire.freshershub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112722344614-fnmcjb89qg6fomfc2n8qk1setvolok50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQD7vDvgiiDdQ25tlYEFX_5sH1azW4XDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112722344614-fnmcjb89qg6fomfc2n8qk1setvolok50.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

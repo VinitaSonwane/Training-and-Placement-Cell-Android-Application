@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="year_array">
+        <item>Select Year</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+    </string-array>
+    <string-array name="special_access">
+        <item>WNsph1UTslTg27vJS40WHZ0Btbn2</item>  //Omkar
+        <item>M2hW2clnrqeHQDLmzASHyboHomn2</item>  //TPO
+        <item>LLzaByLtJYhNB1NTjn7B1NliEnQ2</item>  //Prathmesh
+        <item>FxdjNhkn3fQbi0TN4LGNmPBPxf52</item>  //Rutuja
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_job_profiles">
+
+    <fragment
+        android:id="@+id/nav_job_profiles"
+        android:name="com.hire.freshershub.ui.jobsHome.JobProfilesFragment"
+        android:label="@string/menu_job_profiles"
+        tools:layout="@layout/fragment_job_profiles" />
+
+    <fragment
+        android:id="@+id/nav_update_profile"
+        android:name="com.hire.freshershub.ui.updateProfile.UpdateProfileFragment"
+        android:label="@string/menu_update_profile"
+        tools:layout="@layout/fragment_update_profile" />
+
+    <fragment
+        android:id="@+id/nav_placement_statistics"
+        android:name="com.hire.freshershub.ui.placementStatistics.placementStatisticsFragment"
+        android:label="@string/menu_placement_statistics"
+        tools:layout="@layout/fragment_placement_statistics" />
+
+    <fragment
+        android:id="@+id/nav_tnp_details"
+        android:name="com.hire.freshershub.ui.tnpDetails.tnpDetailsFragment"
+        android:label="@string/menu_tnp_details"
+        tools:layout="@layout/fragment_tnp_details" />
+
+    <fragment
+        android:id="@+id/nav_assistant_tpo"
+        android:name="com.hire.freshershub.ui.assistantTpo.AssistantTpoFragment"
+        android:label="@string/menu_assistant_tpo"
+        tools:layout="@layout/fragment_assistant_tpo" />
+
+    <fragment
+        android:id="@+id/nav_group_chat"
+        android:name="com.hire.freshershub.ui.groupChat.GroupChatFragment"
+        android:label="@string/menu_group_chat"
+        tools:layout="@layout/fragment_group_chat" />
+
+    <fragment
+        android:id="@+id/nav_resume_builder"
+        android:name="com.hire.freshershub.ui.resumebuilder.builderFragment"
+        android:label="Resume Builder"
+        tools:layout="@layout/fragment_builder" />
+
+    <fragment
+        android:id="@+id/nav_resume_analyser"
+        android:name="com.hire.freshershub.ui.ResumeAnalyser.AnalyserFragment"
+        android:label="Resume Analyser"
+        tools:layout="@layout/fragment_analyser" />
+
+    <fragment
+        android:id="@+id/nav_our_team"
+        android:name="com.hire.freshershub.ui.ourTeam.ourTeamFragment"
+        android:label="@string/menu_our_team"
+        tools:layout="@layout/fragment_our_team" />
+</navigation>

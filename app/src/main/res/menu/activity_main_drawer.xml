@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_job_profiles"
+            android:icon="@drawable/ic_baseline_work_24"
+            android:title="@string/menu_job_profiles" />
+
+        <item
+            android:id="@+id/nav_update_profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/menu_update_profile"/>
+
+        <item
+            android:id="@+id/nav_placement_statistics"
+            android:icon="@drawable/ic_baseline_bar_chart_24"
+            android:title="@string/menu_placement_statistics" />
+
+        <item
+            android:id="@+id/nav_tnp_details"
+            android:icon="@drawable/ic_baseline_co_present_24"
+            android:title="@string/menu_tnp_details" />
+
+        <item
+            android:id="@+id/nav_assistant_tpo"
+            android:icon="@drawable/ic_baseline_groups_24"
+            android:title="@string/menu_assistant_tpo" />
+        <item
+            android:id="@+id/nav_resume_builder"
+            android:icon="@drawable/baseline_build_circle_24"
+            android:title="Resume Builder" />
+
+        <item
+            android:id="@+id/nav_resume_analyser"
+            android:icon="@drawable/baseline_manage_search_24"
+            android:title="Resume Analyser" />
+
+        <item
+            android:id="@+id/nav_group_chat"
+            android:icon="@drawable/ic_baseline_chat_24"
+            android:title="@string/menu_group_chat" />
+
+        <item
+            android:id="@+id/nav_our_team"
+            android:icon="@drawable/ic_baseline_group_24"
+            android:title="@string/menu_our_team" />
+    </group>
+</menu>
